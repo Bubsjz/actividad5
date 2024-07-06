@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.blog {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 30px;
+  
+}
+
+@media (min-width: 800px) {
+  .blog {
+    flex-direction: row;
+  }
+}
+
+label {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+input {
+  font-style: normal;
+  border: 2px solid rgb(133, 133, 133);
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 20px 0px 30px;
+}
+
+.formulario {
+  width: 45%;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: rgb(242, 243, 157);
+}
+
+.listadoNoticias {
+  width: 45%;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: rgb(157, 209, 243);
+}
+
+.formulario-cont {
+  margin-bottom: 15px;
+}
+
+.formulario-cont label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formulario-cont input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.button {
+  font-size: 15px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  background-color: #007BFF;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

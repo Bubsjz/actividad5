@@ -1,0 +1,41 @@
+<div class="blog">
+
+
+
+
+  <div class="formulario">
+    <h1>Nueva Noticia</h1>
+    <div class="formulario-cont">
+      <label for="name">Título</label>
+      <input type="text" placeholder="Introduce un título" [(ngModel)]="newNews.title">
+    </div>
+
+    <div class="formulario-cont">
+      <label for="image">Imagen</label>
+      <input type="text" placeholder="Introduce una URL de la imagen" [(ngModel)]="newNews.image">
+    </div>
+
+    <div class="formulario-cont">
+      <label for="text">Cuerpo</label>
+      <input type="text" placeholder="Introduce un texto" [(ngModel)]="newNews.text">
+    </div>
+
+    <div class="formulario-cont">
+      <label for="date">Fecha de publicación</label >
+      <input type="date" [(ngModel)]="newNews.date">
+    </div>
+
+    <button (click)="saveNews()" class="button">Publicar</button>
+  </div>
+
+
+
+
+
+
+  <section class="listadoNoticias">
+    <h1>Listado de Noticias</h1>
+    <div [innerHTML]="loadData()"></div>
+  </section>
+
+</div>

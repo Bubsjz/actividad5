@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Actividad5
+=======
+# Actividad 5 con un componente
+>>>>>>> dcc433b789c1a4b7e06a42754ac4306ae48604a3
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
 
